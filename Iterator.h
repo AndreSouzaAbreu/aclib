@@ -8,7 +8,7 @@ struct Iterator {
   void* it;
   bool (*hasNext)(Iterator* it);
   void (*next)(Iterator* it, void* next);
-	void (*destroy)(Iterator* it);
+  void (*destroy)(Iterator* it);
 };
 
 Iterator* Iterator_create();

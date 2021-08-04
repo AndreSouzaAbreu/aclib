@@ -9,7 +9,7 @@ Iterator* Iterator_create()
 
 void Iterator_destroy(Iterator* it)
 {
-	it->destroy(it);
+  it->destroy(it);
 }
 
 void Iterator_next(Iterator* it, void* next)
